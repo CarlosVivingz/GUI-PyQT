@@ -26,9 +26,9 @@ class interface(QWidget):
         self.global_layout = QHBoxLayout(self)
         
         #initiate tabs
-        splash.showMessage('Seting up Live Mode...')
+        splash.showMessage('Setting up Live Mode...')
         self.live=live_mode()
-        splash.showMessage('Seting up Calibration Mode...')
+        splash.showMessage('Setting up Calibration Mode...')
         self.calibration=calibration_mode()
         
         self.tabs = QTabWidget()
