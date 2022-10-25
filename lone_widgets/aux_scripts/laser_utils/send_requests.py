@@ -16,7 +16,7 @@ class req_Worker(QObject):
         
     def ask(self):
         while self.flag:
-            time.sleep(1.2)
+            time.sleep(1.8)
             self.q.put('update')
             data=['Sent request']
             self.data.emit(data)
